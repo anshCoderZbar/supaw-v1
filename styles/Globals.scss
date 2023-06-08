@@ -1,0 +1,194 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  max-width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+overflow-x: hidden;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main_container {
+  position: relative;
+  z-index: 1;
+}
+.main_container:after {
+  content:'';
+  position: absolute;
+  z-index: -1;
+  width: 80%;
+  right: 0;
+  bottom: -40px;
+  top: 0;
+  background: linear-gradient(358.89deg, rgba(217, 217, 217, 0.65) -65.27%, rgba(217, 217, 217, 0) 87.19%);
+
+}
+.container-fluid {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 0px auto;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.grsss {
+  margin-top: 10em;
+}
+.grsss2 {
+  margin-top: 5em;
+}
+.Finda {
+  position: relative;
+}
+.convenient{
+  padding: 0;
+  position: relative;
+}
+.convenient .row{
+  padding: 0;
+}
+.line_s {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 14em;
+}
+.line_s.vet {
+  top: 20em;
+}
+.All {
+  color: #fff;
+  margin: 28px 0 0 0;
+  font-size: 14px;
+}
+
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.fadein {
+  opacity: 0;
+  animation: fadein ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+.fadein--one {
+  animation-delay: .2s;
+}
+
+.fadein--two {
+  animation-delay: .3s;
+}
+
+.fadein--three {
+  animation-delay: .4s;
+}
+
+.fadein--four {
+  animation-delay: .5s;
+}
+
+.fadein--five {
+  animation-delay: .6s;
+}
+
+.fadein--six {
+  animation-delay: .7s;
+}
+
+@media screen and (max-width: 1700px) {
+  .grsss {
+    margin-top: 7em;
+}
+.main_container:after {
+  bottom: -8px;
+}
+.line_s img {
+  width: 3px;
+}
+.line_s {
+  top: 11em;
+}
+.line_s.vet {
+  top: 17em;
+}
+}
+@media screen and (max-width: 1500px) {
+  .line_s img {
+    width: 2px;
+  }
+  .line_s {
+    top:4em;
+  }
+  .line_s.vet {
+    top: 9em;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.convenient {
+  padding: 0;
+}
+  }
+  @media screen and (max-width: 1200px) {
+  .line_s {
+    top: 0em;
+  }
+  .line_s.vet {
+    top: 5em;
+}
+}
+  @media screen and (max-width: 1023px) {
+    .container-fluid {
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  .convenient {
+    padding: 0;
+}
+    }
+  @media screen and (max-width: 767px) {
+    .container-fluid {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  .container-fluid.main_container.py-5 {
+    padding-top: 10px !important;
+}
+.line_s img {
+display: none;
+}
+.line_s.vet {
+  display: none;
+  }
+  .All {
+    margin: 14px 0 0px 0;
+    font-size: 14px;
+}
+}

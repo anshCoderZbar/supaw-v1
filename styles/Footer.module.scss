@@ -1,0 +1,50 @@
+.footer{
+    background-color: black;
+    padding: 30px 0;
+    h4 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+     ul li a {
+        font-weight: 400;
+    }
+    ul li a:hover {
+        color: hsl(20.42deg 74.9% 50%);
+        transition: 0.3s;
+    }
+    .social {
+        margin-top: 1rem !important;
+    }
+     .social a  {
+        background: hsla(0, 0%, 100%, 0.06);
+        padding: 0;
+        border-radius: 33px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    .social a:hover  {
+        background: hsl(20.42deg 74.9% 50%);
+        transition: 0.3s;
+    }
+     .social a i {
+        font-size: 16px;
+    }
+    @media only screen and (max-width: 1700px) {
+    ul li a  {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px) {
+ h4 {
+        font-weight: 600;
+        font-size: 18px;
+        margin-top: 2em;
+    }
+}
+}

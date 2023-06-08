@@ -1,0 +1,60 @@
+.main_nav {
+  width: 100%;
+}
+.o_s_s li a {
+  font-weight: 500;
+  color: #000000;
+  transition: 0.3s;
+}
+.o_s_s li a:hover {
+  color: #e35d28 !important;
+}
+.o_s_s li .headBtn {
+    background-color: #672b88;
+    border-radius: 10px;
+    width: max-content;
+    font-weight: 400 !important;
+    font-size: 15px;
+    padding: 12px 11px;
+    width: 116px;
+    text-align: center;
+    transition: 0.3s;
+}
+.o_s_s li .headBtn:hover {
+  background-color: #e35d28;
+  transition: 0.3s;
+  color: #fff !important;
+}
+
+.main_nav{
+  @media screen and (max-width: 1700px) {
+  .o_s_s li a {
+      font-size: 14px;
+  }
+  .o_s_s li .headBtn {
+    font-size: 14px;
+    padding: 10px 8px;
+    width: 111px;
+}
+  }
+  @media screen and (max-width: 991px) {
+  .o_s_s{
+      position: absolute !important;
+      top: 87px;
+      width: 100%;
+      background-color: #ffff;
+      z-index: 4;
+      padding: 0 0 42px 0;
+      left: 0;
+  }
+  .o_s_s li .headBtn {
+    font-size: 14px;
+    padding: 10px 8px;
+    width: 107px;
+    margin: 13px auto 0px auto;
+}
+  }
+  @media screen and (max-width: 767px) {
+
+    }
+}
