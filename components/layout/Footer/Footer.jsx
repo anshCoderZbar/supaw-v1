@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
 
 import styles from "styles/Footer.module.scss";
 import footerLogo from "assets/images/footer.png";
-import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -14,7 +15,9 @@ export const Footer = () => {
             <Link href="/">
               <Image src={footerLogo} alt="footerLogo" loading="lazy" />
             </Link>
-            <p className="All">© {new Date().getFullYear()} Supaw. All rights reserved.</p>
+            <p className="All">
+              © {new Date().getFullYear()} Supaw. All rights reserved.
+            </p>
           </div>
           <div className="col-xxl-4 col-xl-6 col-lg-6 col-md-6 col-12">
             <div className="row mt-4">
@@ -59,18 +62,18 @@ export const Footer = () => {
                 <h4>Social</h4>
                 <div className="d-flex gap-3 mt-4 mt-lg-0">
                   <div className={styles.social}>
-                    <Link href="/" >
-                      <i className="bi bi-facebook"></i>
+                    <Link href="/">
+                      <BsFacebook />
                     </Link>
                   </div>
                   <div className={styles.social}>
                     <Link href="/">
-                      <i className="bi bi-twitter"></i>
+                      <BsTwitter />
                     </Link>
                   </div>
                   <div className={styles.social}>
                     <Link href="/">
-                      <i className="bi bi-linkedin"></i>
+                      <BsLinkedin />
                     </Link>
                   </div>
                 </div>
