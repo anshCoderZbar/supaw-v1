@@ -66,7 +66,6 @@ export const HomeContainer = ({ styles }) => {
             </div>
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <div
-                id="pet-services"
                 className={styles.layout_box}
                 style={{ backgroundColor: "#E75C25" }}
               >
@@ -76,7 +75,7 @@ export const HomeContainer = ({ styles }) => {
           </div>
         </div>
         <div className="container-fluid convenient">
-          <div className="row align-items-center grsss2">
+          <div id="pet-services" className="row align-items-center grsss2">
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <div className={styles.vector1}>
                 <h3>Browse and book Petcare Services</h3>
