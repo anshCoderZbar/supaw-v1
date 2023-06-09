@@ -9,11 +9,12 @@ import google_play from "assets/images/google_play.png";
 import lines from "assets/images/line-top.svg";
 import line2 from "assets/images/line2.svg";
 import line3 from "assets/images/line3.svg";
+import Link from "next/link";
 
 export const HomeContainer = ({ styles }) => {
   return (
     <>
-      <div className={styles.page_head}>
+      <div id="pet-supplies" className={styles.page_head}>
         <h2>Experience our</h2>
         <h2>
           Super App - <span>SuPaw!</span>
@@ -102,10 +103,18 @@ export const HomeContainer = ({ styles }) => {
         <h2>Our one-stop-shop platform for all your Petcare needs.</h2>
         <div className={styles.bottom_img}>
           <div className={styles.de_s}>
-            <Image src={app_store} className="app-store" />
+            <Link href="#">
+              <Image src={app_store} alt="app-store" className="app-store" />
+            </Link>
           </div>
           <div className={styles.de_s}>
-            <Image src={google_play} className="google-play" />
+            <Link href="#">
+              <Image
+                src={google_play}
+                alt="play-store"
+                className="google-play"
+              />
+            </Link>
           </div>
         </div>
       </div>

@@ -5,12 +5,12 @@ import React from "react";
 import { Layout } from "components/layout";
 
 // Page components import
-import { HomeBanner } from "page-features/Home/HomeBanner";
-import { HomeContainer } from "page-features/Home/HomeContainer";
+import { HomeBanner } from "page-components/Home/HomeBanner";
+import { HomeContainer } from "page-components/Home/HomeContainer";
+import { HomeBottomBanner } from "page-components/Home/HomeBottomBanner";
 
 // Styles and images import
 import styles from "styles/Home.module.scss";
-import { HomeBottomBanner } from "page-features/Home/HomeBottomBanner";
 
 export default function index() {
   return (
