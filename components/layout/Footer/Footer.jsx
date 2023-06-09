@@ -4,7 +4,7 @@ import Link from "next/link";
 import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
 
 import styles from "styles/Footer.module.scss";
-import footerLogo from "assets/images/footer.png";
+import footerLogo from "assets/images/footer-logo.svg";
 
 export const Footer = () => {
   return (
