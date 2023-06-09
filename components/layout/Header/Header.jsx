@@ -44,14 +44,14 @@ export const Header = () => {
               </a>
             </li>
             <li className="nav-item fw-semibold">
-              <a className="nav-link text-dark" href="#">
+              <a className="nav-link text-dark" href="#pet-services">
                 Pet Services
               </a>
             </li>
             <li className="nav-item fw-semibold">
               <a
                 className={`nav-link text-white px-4 ${styles.headBtn} `}
-                href="#"
+                href="#register"
               >
                 Register
               </a>

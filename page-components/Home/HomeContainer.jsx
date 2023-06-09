@@ -14,7 +14,7 @@ import Link from "next/link";
 export const HomeContainer = ({ styles }) => {
   return (
     <>
-      <div id="pet-supplies" className={styles.page_head}>
+      <div className={styles.page_head}>
         <h2>Experience our</h2>
         <h2>
           Super App - <span>SuPaw!</span>
@@ -27,7 +27,7 @@ export const HomeContainer = ({ styles }) => {
               </div>
             </div>
           </div>
-          <div className="row align-items-center grsss">
+          <div id="pet-supplies" className="row align-items-center grsss">
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 Finda">
               <div className={styles.vector1}>
                 <h3>Find localised Pet Supplies</h3>
@@ -51,7 +51,7 @@ export const HomeContainer = ({ styles }) => {
           </div>
         </div>
         <div className="container-fluid convenient">
-          <div className="row align-items-center grsss2">
+          <div id="veterinary" className="row align-items-center grsss2">
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <div className={styles.vector1}>
                 <h3>Book vet appointments & manage digital records</h3>
@@ -66,6 +66,7 @@ export const HomeContainer = ({ styles }) => {
             </div>
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <div
+                id="pet-services"
                 className={styles.layout_box}
                 style={{ backgroundColor: "#E75C25" }}
               >

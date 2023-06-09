@@ -19,7 +19,7 @@ export const HomeBottomBanner = ({ styles }) => {
     },
   ];
   return (
-    <div className={styles.bottom_banner}>
+    <div id="register" className={styles.bottom_banner}>
       <div className="container-fluid ">
         <div className={styles.bottom_section}>
           {data?.length >= 1 &&
