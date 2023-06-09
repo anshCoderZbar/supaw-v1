@@ -21,7 +21,7 @@ export const Footer = () => {
           </div>
           <div className="col-xxl-4 col-xl-6 col-lg-6 col-md-6 col-12">
             <div className="row mt-4">
-              <div className="col-lg-4 col-md-6 col-12 text-white">
+              <div className="col-lg-4 col-md-6 col-6 text-white">
                 <h4>About Supaw</h4>
                 <ul className="list-unstyled mt-4">
                   <li className="mt-3 fw-semibold fs-6">
@@ -41,7 +41,7 @@ export const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-4 col-md-6 col-12 text-white">
+              <div className="col-lg-4 col-md-6 col-6 text-white">
                 <h4>Company</h4>
                 <ul className="list-unstyled mt-4">
                   <li className="mt-3 fw-semibold fs-6">
