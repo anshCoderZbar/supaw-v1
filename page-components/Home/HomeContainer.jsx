@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import gif1 from "assets/images/box_gif_1.gif";
 import gif2 from "assets/images/box_gif_2.gif";
@@ -9,7 +10,6 @@ import google_play from "assets/images/google_play.png";
 import lines from "assets/images/line-top.svg";
 import line2 from "assets/images/line2.svg";
 import line3 from "assets/images/line3.svg";
-import Link from "next/link";
 
 export const HomeContainer = ({ styles }) => {
   return (
@@ -17,7 +17,7 @@ export const HomeContainer = ({ styles }) => {
       <div className={styles.page_head}>
         <h2>Experience our</h2>
         <h2>
-          Super App - <span>SuPaw!</span>
+          Super App - <span>Su`Paw!</span>
         </h2>
         <div className="container-fluid convenient">
           <div className="row">
@@ -45,7 +45,7 @@ export const HomeContainer = ({ styles }) => {
                 className={styles.layout_box}
                 style={{ backgroundColor: "#e89f23" }}
               >
-                <Image src={gif1} alt="gif-2" />
+                <Image src={gif1} alt="gif-2" type="video/webm"></Image>
               </div>
             </div>
           </div>
