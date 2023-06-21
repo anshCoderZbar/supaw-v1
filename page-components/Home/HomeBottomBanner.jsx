@@ -8,19 +8,19 @@ export const HomeBottomBanner = ({ styles }) => {
       id: 1,
       heading: "You run a Vet practice?",
       backgroundColor: "#E75C25",
-      url: "#1",
+      url: "#1", // 1st url
     },
     {
       id: 2,
       heading: "Do you run a Pet Store?",
       backgroundColor: "#E89F23",
-      url: "#2",
+      url: "#2", // 2nd url
     },
     {
       id: 3,
       heading: "Do you offer Pet Services?",
       backgroundColor: "#7F3FA6",
-      url: "#3",
+      url: "#3", // 3rd url
     },
   ];
   return (
